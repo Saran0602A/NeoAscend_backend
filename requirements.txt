@@ -1,0 +1,56 @@
+# Core backend
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1
+
+# Database
+motor==3.6.0          # MongoDB async driver
+sqlalchemy==2.0.34    # SQL option if needed
+databases==0.9.0      # Async SQL layer
+
+# Auth & Security
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+bcrypt==4.2.0
+pyjwt==2.9.0
+
+# LangChain & AI
+langchain==0.3.4
+langchain-community==0.3.3
+langchain-core==0.3.10
+langchain-openai==0.1.22
+langchain-groq==0.1.6
+tiktoken==0.7.0
+
+# Async & HTTP
+httpx==0.27.2
+requests==2.32.3
+aiohttp==3.10.5
+
+# Parsing & Resume handling
+python-docx==1.1.2
+pdfplumber==0.11.4
+PyPDF2==3.0.1
+
+# Data processing
+pandas==2.2.3
+numpy==1.26.4
+
+# Caching / Background
+redis==5.0.8
+celery==5.4.0
+
+# Web scraping & API helpers
+beautifulsoup4==4.12.3
+lxml==5.3.0
+selenium==4.24.0
+
+# Dev / Testing
+pytest==8.3.3
+black==24.8.0
+isort==5.13.2
+
+# Optional (GitHub/LeetCode API)
+pygithub==2.5.0
+leetcode-api   # community maintained
